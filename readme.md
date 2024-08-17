@@ -44,20 +44,45 @@ SELECT * FROM rh.estado;
 <br>
 
 ### 4ª Etapa
-- Inserir valores na tabela: rh.pessoa.
+- Inserir valores na tabela: rh.estado.
 ```
-INSERT INTO rh.pessoa (nome, cpf, email, nascimento, renda, casa_propria) VALUES 
-    ('Pedro', '01234567890', 'pedro@digital.com.br', '1990-01-01', 2450.75, true),
-    ('Renato', '01234567899', 'renato@digital.com.br', '1983-04-13', 5000.00, true);
+INSERT INTO rh.estado (sigla, nome) VALUES 
+('AC', 'Acre'),
+('AL', 'Alagoas'),
+('AP', 'Amapá'),
+('AM', 'Amazonas'),
+('BA', 'Bahia'),
+('CE', 'Ceará'),
+('DF', 'Distrito Federal'),
+('ES', 'Espírito Santo'),
+('GO', 'Goiás'),
+('MA', 'Maranhão'),
+('MT', 'Mato Grosso'),
+('MS', 'Mato Grosso do Sul'),
+('MG', 'Minas Gerais'),
+('PA', 'Pará'),
+('PB', 'Paraíba'),
+('PR', 'Paraná'),
+('PE', 'Pernambuco'),
+('PI', 'Piauí'),
+('RJ', 'Rio de Janeiro'),
+('RN', 'Rio Grande do Norte'),
+('RS', 'Rio Grande do Sul'),
+('RO', 'Rondônia'),
+('RR', 'Roraima'),
+('SC', 'Santa Catarina'),
+('SP', 'São Paulo'),
+('SE', 'Sergipe'),
+('TO', 'Tocantins');
 ```
 
-- Checar valores inseridos na tabela: rh.pessoa.
+- Checar valores inseridos na tabela: rh.estado.
 ```
-SELECT * FROM rh.pessoa;
+SELECT * FROM rh.estado;
 ```
 
 - Visualização <br>
-![screenshot](rh_pessoa_02.png)
+![screenshot](rh_estado_02.png)
 
 <br>
 
