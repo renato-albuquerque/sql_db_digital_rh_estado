@@ -98,13 +98,14 @@ SELECT nome FROM rh.estado;
 <br>
 
 ### 6ª Etapa
-- Visualizar duas colunas da tabela: rh.pessoa.
+- Visualizar apenas o estado Ceará na tabela: rh.estado.
 ```
-SELECT nome, cpf FROM rh.pessoa;
+SELECT * FROM rh.estado
+WHERE sigla = 'CE';
 ```
 
 - Visualização <br>
-![screenshot](rh_pessoa_04.png)
+![screenshot](rh_estado_04.png)
 
 <br>
 
