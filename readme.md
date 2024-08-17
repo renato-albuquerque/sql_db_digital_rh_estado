@@ -87,13 +87,13 @@ SELECT * FROM rh.estado;
 <br>
 
 ### 5ª Etapa
-- Visualizar apenas uma coluna da tabela: rh.pessoa.
+- Visualizar apenas uma coluna da tabela: rh.estado.
 ```
-SELECT nome FROM rh.pessoa;
+SELECT nome FROM rh.estado;
 ```
 
 - Visualização <br>
-![screenshot](rh_pessoa_03.png)
+![screenshot](rh_estado_03.png)
 
 <br>
 
